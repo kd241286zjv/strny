@@ -1,33 +1,8 @@
-$(document).ready(function() {
-  $('.hamburger').click(function(){
-    $(this).toggleClass('is-active');
-    $('nav').slideToggle('300');
-    $('.logotype').fadeToggle('300');
-  });
 
-  var pillowsSwiper = new Swiper('.swiper-container-pillows', {
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true
-    },
-    slidesPerView: 3,
-    loop: true,
-    breakpoints: {
-      768:{
-        slidesPerView: 1
-      }
-    }
-  });
-
-});
 var c = document.getElementById('canv'),
-  $ = c.getContext("2d");
+    $ = c.getContext("2d");
 var w = c.width = window.innerWidth,
-  h = c.height = window.innerHeight;
+    h = c.height = window.innerHeight;
 
 Snowy();
 function Snowy() {
@@ -79,3 +54,33 @@ window.addEventListener('resize', function(){
 c.width = w = window.innerWidth;
 c.height = h = window.innerHeight;
 }, false);
+
+jQuery(document).ready(function() {
+  jQuery('.hamburger').click(function(){
+    jQuery(this).toggleClass('is-active');
+    jQuery('nav').slideToggle('300');
+    jQuery('.logotype').fadeToggle('300');
+    if(screen.width < 576){
+      jQuery('.uselessVoid').toggleClass('uselessVoid-visible');
+    };
+  });
+
+  var pillowsSwiper = new Swiper('.swiper-container-pillows', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+    slidesPerView: 3,
+    loop: true,
+    breakpoints: {
+      768:{
+        slidesPerView: 1
+      }
+    }
+  });
+
+});

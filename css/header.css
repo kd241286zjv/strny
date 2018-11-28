@@ -266,4 +266,7 @@ canvas{
   .uselessVoid{
     display: none;
   }
+  .uselessVoid-visible{
+    display: block;
+  }
 }
