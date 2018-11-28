@@ -1,6 +1,6 @@
 .mattressesSection{
   background-color: #EEF5FB;
-  padding: 70px 0;
+  padding: 70px 0 30px;
   color: #000;
 }
 .mattressesSection__header{
@@ -67,7 +67,7 @@
   font-size: 16px;
   font-weight: 300;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .mattressDescription ul li:before{
   position: absolute;
@@ -141,5 +141,15 @@
   }
   .mattressesSection{
     padding: 40px 0;
+  }
+  .mattressDescription .btn{
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .priceBlock__price{
+    margin-bottom: 8px;
+  }
+  .mattressesSection{
+    padding-bottom: 0;
   }
 }

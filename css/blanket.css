@@ -69,7 +69,7 @@
   font-size: 16px;
   font-weight: 300;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .blanketDescription ul li:before{
   position: absolute;
@@ -130,5 +130,13 @@
   }
   .blanketSection .row{
     padding: 0;
+  }
+  .blanketDescription .btn{
+    margin-left: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .blanketSection{
+    padding-bottom: 0;
   }
 }

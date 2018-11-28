@@ -25,7 +25,7 @@
   font-size: 16px;
   font-weight: 300;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .delivery ul li:before{
   position: absolute;

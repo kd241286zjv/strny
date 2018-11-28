@@ -1,6 +1,6 @@
 .beddingSection{
   background-color: #EEF5FB;
-  padding: 70px 0;
+  padding: 30px 0 70px;
   color: #000;
 }
 .beddingSection__header{
@@ -24,7 +24,7 @@
 }
 .beddingCaption{
   background-color: #fff;
-  padding: 20px 50px;
+  padding: 20px;
   color: #000;
   font-size: 18px;
   text-align: center;
@@ -57,5 +57,8 @@
   }
   .beddingCaption{
     min-height: 100px;
+  }
+  .beddingSection__header{
+    font-size: 23px;
   }
 }

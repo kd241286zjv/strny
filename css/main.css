@@ -43,25 +43,3 @@ p{
   margin: 0;
   line-height: 1.7;
 }
-.btn{
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  justify-content: center;
-  -ms-align-items: center;
-  align-items: center;
-  width: 170px;
-  height: 50px;
-  color: #fff;
-  background-color: #1C398B;
-  font-weight: 700;
-  padding: 0;
-  border-radius: 2px;
-  -webkit-transition: .3s background-color ease;
-  -o-transition: .3s background-color ease;
-  transition: .3s background-color ease;
-}
-.btn:hover{
-  color:#fff;
-  background-color: #2144A6;
-}

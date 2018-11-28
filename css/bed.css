@@ -69,7 +69,7 @@
   font-size: 16px;
   font-weight: 300;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .bedDescription ul li:before{
   position: absolute;
@@ -130,5 +130,10 @@
   }
   .bedSection .row{
     padding: 0;
+  }
+  .bedDescription .btn{
+    margin-left: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
   }
 }

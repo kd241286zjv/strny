@@ -1,5 +1,5 @@
 .pillowsSection{
-  padding: 100px 0;
+  padding: 70px 0;
   color: #000;
 }
 .pillowsSection__header{
@@ -12,7 +12,7 @@
 .pillowsSection__subheader{
   font-size: 20px;
   font-weight: 300;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   text-align: center;
 }
 .pillowBody__visible{
@@ -40,7 +40,7 @@
 }
 .swiper-slide:not(.swiper-slide-next) .pillowBody{
   opacity: .5;
-  transform: scale(.75,.75);
+  transform: scale(.65,.65);
 }
 .pillowName{
   display: -webkit-flex;
@@ -125,7 +125,7 @@
   .swiper-slide-active .pillowBody__invisible{
     opacity: 1;
   }
-  .swiper-slide-active .pillowBody{
+  .swiper-slide .pillowBody{
     padding-top: 0px;
     opacity: 1;
   }
@@ -179,5 +179,8 @@
   }
   .pillowsSection__subheader{
     font-size: 16px;
+  }
+  .pillowName p{
+    font-size: 22px;
   }
 }
