@@ -39,3 +39,9 @@
   object-fit: cover;
   overflow: hidden;
 }
+
+@media(max-width: 1199px){
+  .beddingCaption{
+    padding: 20px;
+  }
+}

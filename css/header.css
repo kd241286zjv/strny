@@ -128,3 +128,131 @@ header{
   background-size: auto 100%;
   background-position: 0 0;
 }
+nav ul li a{
+  font-size: 29px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+nav ul li{
+  margin-bottom: 10px;
+}
+
+@media(max-width: 1199px){
+  header{
+    background: none;
+  }
+  .topHeader{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+  header .row{
+    position: static;
+  }
+}
+@media(max-width: 991px){
+  .pageLabel{
+    left: 65%;
+    bottom: 20px;
+    padding: 30px;
+    max-width: 215px;
+  }
+  .pageLabel p{
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .pageLabel span{
+    font-size: 55px;
+  }
+  .topHeader{
+    max-width: 720px;
+  }
+}
+@media(max-width: 767px){
+  .topHeader{
+    max-width: 540px;
+  }
+  .pageHeader{
+    font-size: 45px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  .pageLabel{
+    background: none;
+    background-color: #D82E67;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    position: static;
+    width: 280px;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+  .pageLabel__text{
+    width: auto;
+  }
+  .pageLabel__object{
+    width: 150px;
+  }
+  .pageLabel__object{
+    font-size: 13px;
+    padding-left: 10px;
+  }
+  .pageLabel span{
+    font-size: 40px;
+  }
+  .pageLabel p{
+    font-size: 13px;
+  }
+  .pageLabel__text p{
+    font-size: 16px;
+  }
+  .pageLabel{
+    padding: 20px;
+  }
+  .mainScr{
+    padding: 100px 0;
+  }
+  .topHeader{
+    top: 0;
+  }
+}
+@media(max-width: 575px){
+  .topHeader{
+    max-width: 320px;
+  }
+  .pagePreheader, .pageSubheader{
+    font-size: 16px;
+  }
+  .pageHeader{
+    font-size: 26px;
+  }
+  .mainScr{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .btn.primaryButton{
+    order:5;
+    width: 100%;
+  }
+  .pageLabel{
+    width: 100%;
+    padding: 30px;
+  }
+  .pageLabel__object{
+    flex-grow: 1;
+  }
+}

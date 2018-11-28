@@ -109,3 +109,12 @@
   font-weight: 500;
   color: #2144A6;
 }
+
+@media(max-width: 991px){
+  .blanketImage{
+    margin-bottom: 20px;
+  }
+  .blanketDescription__header{
+    text-align: center;
+  }
+}

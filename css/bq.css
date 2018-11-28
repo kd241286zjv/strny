@@ -38,3 +38,12 @@
   margin-right: auto;
   min-height: 90px;
 }
+
+@media(max-width: 767px){
+  .qualityBlock p{
+    font-size: 14px;
+  }
+  .qualityBlock img{
+    width: 100%;
+  }
+}

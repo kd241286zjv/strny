@@ -109,3 +109,12 @@
   font-weight: 500;
   color: #2144A6;
 }
+
+@media(max-width: 991px){
+  .bedDescription__header{
+    text-align: center;
+  }
+  .bedImage{
+    margin-bottom: 20px;
+  }
+}

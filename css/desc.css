@@ -21,3 +21,29 @@
   font-size: 16px;
   font-weight: 300;
 }
+.imgCol{
+  display: none;
+}
+
+@media(max-width: 767px){
+  .descSection{
+    padding: 50px 0;
+  }
+  .cozyGoods{
+    padding: 25px;
+  }
+}
+@media(max-width: 575px){
+  .imgCol{
+    display: block;
+  }
+  .imgCol img{
+    width: 100%;
+  }
+  .descSection{
+    background: none;
+  }
+  .cozyGoods__header{
+    font-size: 24px;
+  }
+}
