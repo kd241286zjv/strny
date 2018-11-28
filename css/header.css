@@ -63,4 +63,68 @@ nav ul{
 }
 .mainScr{
   padding: 140px 0;
+  text-align: center;
+  position: relative;
+  color: #1C398B;
+}
+.pageLabel{
+  position: absolute;
+  left: 75%;
+  bottom: 0;
+  color: #fff;
+  max-width: 270px;
+  width: 100%;
+  padding: 55px;
+  background-image: url('../img/label.png');
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-position: center center;
+}
+.pagePreheader, .pageSubheader{
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pageHeader{
+  max-width: 630px;
+  margin: 20px auto;
+  font-size: 58px;
+}
+.btn.primaryButton{
+  background-color: transparent;
+  color: #1C398B;
+  border: 2px solid #1C398B;
+  margin: 0 auto;
+  margin-top: 40px;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+.btn.primaryButton:hover{
+  background-color: transparent;
+  color: #2144A6;
+  border: 2px solid #2144A6;
+}
+.pageLabel p{
+  font-size: 20px;
+  font-weight: 600;
+}
+.pageLabel span{
+  font-size: 73px;
+  font-weight: 700;
+  line-height: 1;
+}
+p.pageLabel__object{
+  font-size: 13px;
+  font-weight: 400;
+}
+header{
+  background-image: url('../img/mainScr.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+  background-position: 0 0;
 }

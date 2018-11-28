@@ -1,0 +1,23 @@
+.descSection{
+  padding: 150px 0;
+  color: #000;
+  background-image: url('../img/desc.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+.cozyGoods{
+  width: 100%;
+  background-color: #fff;
+  padding: 50px;
+}
+.cozyGoods__header{
+  color: #1C398B;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.cozyGoods__description{
+  font-size: 16px;
+  font-weight: 300;
+}

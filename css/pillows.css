@@ -1,0 +1,119 @@
+.pillowsSection{
+  padding: 100px 0;
+  color: #000;
+}
+.pillowsSection__header{
+  font-size: 46px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #1C398B;
+}
+.pillowsSection__subheader{
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.pillowBody__visible{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.pillowBody__visible img{
+  max-width: 90%;
+}
+.pillowBody{
+  padding-top: 0;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+.swiper-slide-next .pillowBody{
+  padding-top: 50px;
+}
+.swiper-slide:not(.swiper-slide-next) .pillowBody{
+  opacity: .5;
+  transform: scale(.75,.75);
+}
+.pillowName{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+.pillowName p{
+  color: #1C398B;
+  font-size: 30px;
+  font-weight: 500;
+}
+.pillowName span{
+  font-weight: 700;
+  color: #fff;
+  font-size: 24px;
+  padding: 5px 10px;
+  line-height: 1;
+  background-color: #D82E67;
+  margin-left: 10px;
+}
+.pillowBody__invisible{
+  opacity: 0;
+  text-align: center;
+  -webkit-transition: .3s opacity ease;
+  -o-transition: .3s opacity ease;
+  transition: .3s opacity ease;
+}
+.swiper-slide-next .pillowBody__invisible{
+  opacity: 1;
+}
+.pillowBody__invisible p{
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.pillowBody__size p{
+  margin-bottom: 0;
+}
+.pillowBody__size{
+  margin-bottom: 20px;
+}
+.pillowBody__size a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #1C398B;
+}
+.pillowBody__price p{
+  color: #B2B2B2;
+  font-size: 20px;
+  text-decoration: line-through;
+}
+.pillowBody__price span{
+  font-size: 32px;
+  font-weight: 600;
+}
+.pillowBody__price{
+  margin-bottom: 20px;
+}
+.pillowBody__invisible .btn{
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+  background-image: url('../img/arrow.svg');
+  transform: scaleX(-1);
+  left: 25%;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+  background-image: url('../img/arrow.svg');
+  right: 25%;
+}
+.swiper-button-next, .swiper-button-prev{
+  top: 60%;
+}

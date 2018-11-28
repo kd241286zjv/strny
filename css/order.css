@@ -1,0 +1,38 @@
+.orderSection{
+  padding: 100px 0;
+  background-color: #EEF5FB;
+  color: #000;
+}
+.orderSection__header{
+  font-size: 42px;
+  font-weight: 400;
+  color: #1C398B;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.orderStep{
+  position: relative;
+  text-align: center;
+}
+.orderStep::after{
+  position: absolute;
+  display: block;
+  content:url('../img/order.png');
+  top: 15%;
+  left: 80%;
+}
+.orderStep:last-child::after{
+  display: none;
+}
+.orderStep span{
+  font-size: 64px;
+  color: #1C398B;
+  margin-bottom: 40px;
+}
+.orderStep p{
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,109 @@
+.mattressesSection{
+  background-color: #EEF5FB;
+  padding: 70px 0;
+  color: #000;
+}
+.mattressesSection__header{
+  font-size: 46px;
+  font-weight: 700;
+  color: #1C398B;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.mattressesSection__subheader{
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.mattressesSection .row{
+  margin-bottom: 30px;
+  -webkit-box-shadow: 7px 7px 25px 0px rgba(28, 57, 139, 0);
+  -moz-box-shadow: 7px 7px 25px 0px rgba(28, 57, 139, 0);
+  box-shadow: 7px 7px 25px 0px rgba(28, 57, 139, 0);
+  background-color: #fff;
+  padding: 50px 0;
+  -webkit-transition: .3s box-shadow ease;
+  -o-transition: .3s box-shadow ease;
+  transition: .3s box-shadow ease;
+}
+.mattressesSection .row:hover{
+  -webkit-box-shadow: 7px 7px 25px 0px rgba(28, 57, 139, 0.15);
+  -moz-box-shadow: 7px 7px 25px 0px rgba(28, 57, 139, 0.15);
+  box-shadow: 7px 7px 25px 0px rgba(28, 57, 139, 0.15);
+}
+.mattressImage img{
+  max-width: 100%;
+}
+.mattressImage{
+  position: relative;
+}
+.mattressImage__discount{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  color: #fff;
+  background-color: #D82E67;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+.mattressDescription__header{
+  font-size: 30px;
+  font-weight: 700;
+  color: #2144A6;
+  margin-bottom: 20px;
+}
+.mattressDescription__text{
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.mattressDescription ul{
+  padding-left: 20px;
+}
+.mattressDescription ul li{
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 20px;
+}
+.mattressDescription ul li:before{
+  position: absolute;
+  content:'';
+  display: block;
+  background-color: #1C398B;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  top: 5px;
+  left: -20px;
+}
+.priceBlock{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: stretch;
+  align-items: stretch;
+}
+.priceBlock__price p{
+  color: #B2B2B2;
+  font-size: 20px;
+  text-decoration: line-through;
+}
+.priceBlock__price{
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  margin-right: 60px;
+}
+.priceBlock__sizes p{
+  font-size: 16px;
+  font-weight: 300;
+}
+.changeSize{
+  font-size: 16px;
+  font-weight: 500;
+  color: #2144A6;
+}

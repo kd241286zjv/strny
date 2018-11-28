@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400,500,600,700&subset=cyrillic');
 @import url('header.css');
+@import url('desc.css');
+@import url('matresses.css');
+@import url('bed.css');
+@import url('blanket.css');
+@import url('bedding.css');
+@import url('bq.css');
+@import url('order.css');
+@import url('delivery.css');
+@import url('footer.css');
+@import url('pillows.css');
 
 *{
   box-sizing: border-box;
@@ -31,7 +41,7 @@ a, a:hover, a:focus, a:active{
 }
 p{
   margin: 0;
-  line-height: 2;
+  line-height: 1.7;
 }
 .btn{
   display: -webkit-flex;
@@ -45,6 +55,8 @@ p{
   color: #fff;
   background-color: #1C398B;
   font-weight: 700;
+  padding: 0;
+  border-radius: 2px;
   -webkit-transition: .3s background-color ease;
   -o-transition: .3s background-color ease;
   transition: .3s background-color ease;
