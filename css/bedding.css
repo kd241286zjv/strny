@@ -45,3 +45,17 @@
     padding: 20px;
   }
 }
+@media(max-width: 575px){
+  .beddingSection{
+    padding: 40px 0;
+  }
+  .beddingSection__header{
+    font-size: 32px;
+  }
+  .beddingSection__subheader{
+    font-size: 16px;
+  }
+  .beddingCaption{
+    min-height: 100px;
+  }
+}

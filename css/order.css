@@ -42,3 +42,27 @@
     font-size: 12px;
   }
 }
+@media(max-width: 575px){
+  .orderSection{
+    padding: 40px 0;
+  }
+  .orderSection__header{
+    font-size: 23px;
+  }
+  .orderStep span{
+    font-size: 50px;
+  }
+  .orderStep p{
+    font-size: 14px;
+  }
+  .orderStep{
+    margin-bottom: 60px;
+  }
+  .orderStep::after{
+    top: calc(100% + 17px);
+    left: calc(50% - 50px);
+    height:40px;
+    width:auto;
+    transform: rotateZ(90deg);
+  }
+}

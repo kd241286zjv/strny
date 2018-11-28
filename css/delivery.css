@@ -41,9 +41,24 @@
 
 @media(max-width: 767px){
   .delivery{
+    order:1;
+  }
+  .deliveryImg{
     order:2;
   }
   .deliverySection{
     padding: 50px 0;
+  }
+}
+@media(max-width: 575px){
+  .delivery__header{
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+  .delivery__desc{
+    font-size: 16px;
+  }
+  .delivery__desc{
+    margin-bottom: 20px;
   }
 }

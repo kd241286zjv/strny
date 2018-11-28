@@ -170,3 +170,14 @@
     max-width: 75%;
   }
 }
+@media(max-width: 575px){
+  .pillowsSection{
+    padding: 40px 0;
+  }
+  .pillowsSection__header{
+    font-size: 32px;
+  }
+  .pillowsSection__subheader{
+    font-size: 16px;
+  }
+}

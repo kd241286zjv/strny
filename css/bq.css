@@ -47,3 +47,17 @@
     width: 100%;
   }
 }
+@media(max-width: 575px){
+  .beddingQualitySection{
+    padding: 40px 0;
+  }
+  .beddingQualitySection__header{
+    font-size: 23px;
+  }
+  .beddingQualitySection .row{
+    justify-content: center;
+  }
+  .qualityBlock{
+    margin-bottom: 20px;
+  }
+}
